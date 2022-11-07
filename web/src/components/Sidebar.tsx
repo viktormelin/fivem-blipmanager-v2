@@ -17,10 +17,10 @@ const Sidebar: React.FC = () => {
             width: 'fit-content',
             paddingLeft: '1rem',
         }}>
-            <Button variant="contained" startIcon={<CheckBox/>}>
+            <Button onClick={() => setMenu('activated')} variant="contained" startIcon={<CheckBox/>}>
                 Activated
             </Button>
-            <Button variant="contained" startIcon={<IndeterminateCheckBox/>}>
+            <Button onClick={() => setMenu('deactivated')} variant="contained" startIcon={<IndeterminateCheckBox/>}>
                 Deactivated
             </Button>
             <Button color='error' variant="contained" startIcon={<Close/>}>

@@ -42,7 +42,7 @@ export const theme = createTheme({
                     fontWeight: 'bold'
                 }
             }
-        }
+        },
     },
     palette: {
         primary: {
