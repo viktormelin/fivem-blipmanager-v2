@@ -1,0 +1,12 @@
+{
+  "categories": [
+    {
+      "name": "GeneralBlips",
+      "label": "General Blips",
+      "description": "Write some descriptive text here"
+    }
+  ],
+  "showBlipCount": true,
+  "useCommand": false,
+  "commandName": "blipmanager"
+}
