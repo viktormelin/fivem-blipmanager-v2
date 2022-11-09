@@ -7,6 +7,5 @@
     }
   ],
   "showBlipCount": true,
-  "useCommand": false,
-  "commandName": "blipmanager"
+  "useCommand": false
 }
